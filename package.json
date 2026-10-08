@@ -1,0 +1,25 @@
+{
+  "name": "playwright-code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:bdd": "cucumber-js",
+    "chrome-parallel": "cucumber-js --profile chrome_parallel --exit ",
+    "firefox-parallel": "cucumber-js --profile firefox_parallel --exit ",
+    "webkit-parallel": "cucumber-js --profile webkit_parallel --exit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.6.4",
+    "cross-env": "^10.1.0"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^13.3.0",
+    "playwright": "^1.63.0"
+  }
+}
